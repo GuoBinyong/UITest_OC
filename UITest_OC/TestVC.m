@@ -17,6 +17,22 @@
 
 @implementation TestVC
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self configForInit];
+    }
+    return self;
+}
+
+//初始化方法
+-(void)configForInit {
+    
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
