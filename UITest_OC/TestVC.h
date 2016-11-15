@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TestVC : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
+@property (weak, nonatomic) IBOutlet UILabel *displyLab;
+@property (weak, nonatomic) IBOutlet UIView *containerView;
+
 
 @end

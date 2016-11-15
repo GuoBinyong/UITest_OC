@@ -9,7 +9,7 @@
 #import "TestVC.h"
 
 @interface TestVC ()
-@property (weak, nonatomic) IBOutlet UIView *containerView;
+
 @property (weak, nonatomic) IBOutlet UIStackView *rightStackView;
 @property (weak, nonatomic) IBOutlet UIStackView *bottomStackView;
 
